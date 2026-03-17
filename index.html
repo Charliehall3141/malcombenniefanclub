@@ -76,6 +76,42 @@
             font-weight: bold;
         }
 
+        /* --- New Contact Section Styles --- */
+        .contact-info {
+            background-color: #1a1a1a;
+            border: 1px solid #003366;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            color: #0077b6;
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+
+        .contact-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .contact-item p {
+            margin: 5px 0;
+        }
+
+        .contact-label {
+            display: block;
+            font-weight: bold;
+            color: #888;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+        /* ---------------------------------- */
+
         /* Footer */
         footer {
             text-align: center;
@@ -122,6 +158,24 @@
                 <div class="caption">Fan Favorite</div>
             </div>
         </main>
+
+        <section class="contact-info">
+            <h3>Get in Touch</h3>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <span class="contact-label">Phone</span>
+                    <p>01324 504949</p>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <p>malcolm.bennie@falkirk.gov.uk</p>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Work Postcode</span>
+                    <p>FEE CKR</p>
+                </div>
+            </div>
+        </section>
     </div>
 
     <footer>
