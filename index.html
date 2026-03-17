@@ -1,31 +1,132 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>malcoms fan club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malcolm Bennie Fan Club</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0b0e14; /* Deep Black/Dark Gray */
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
 
-<style>
-img {
-  display: block;
-  margin: auto;
-  width: 50%;
-}
+        header {
+            background-color: #003366; /* Deep Blue */
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 4px solid #00509d;
+        }
 
-  
-  
-</style>
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        /* Gallery Grid */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .photo-slot {
+            background-color: #1a1a1a;
+            border: 2px solid #003366;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .photo-slot:hover {
+            transform: scale(1.03);
+            border-color: #0077b6;
+        }
+
+        .photo-slot img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .caption {
+            padding: 10px;
+            text-align: center;
+            background: #003366;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #001d3d;
+            margin-top: 4rem;
+            font-size: 0.8rem;
+            color: #888;
+        }
+    </style>
 </head>
+<body>
 
-<body> 
+    <header>
+        <h1>Malcolm Bennie Fan Club</h1>
+        <p>The Ultimate Destination for Fans</p>
+    </header>
 
-<div style="text-align: center; font-weight: bold; color: yellow;">
-<h1>Malcom bennies official fab club</h1>
+    <div class="container">
+        <section class="intro">
+            <h2>Welcome to the Community</h2>
+            <p>Celebrating the work and achievements of Malcolm Bennie. Check out our latest gallery updates below.</p>
+        </section>
 
-<p>this is malcolm bennies oficial fan club</p>
+        <main class="gallery">
+            <div class="photo-slot">
+                <img src="image1.jpg" alt="Malcolm Bennie Image 1">
+                <div class="caption">Featured Highlight</div>
+            </div>
+            <div class="photo-slot">
+                <img src="image2.jpg" alt="Malcolm Bennie Image 2">
+                <div class="caption">Recent Event</div>
+            </div>
+            <div class="photo-slot">
+                <img src="image3.jpg" alt="Malcolm Bennie Image 3">
+                <div class="caption">Behind the Scenes</div>
+            </div>
+            <div class="photo-slot">
+                <img src="image4.jpg" alt="Malcolm Bennie Image 4">
+                <div class="caption">Press Release</div>
+            </div>
+            <div class="photo-slot">
+                <img src="image5.jpg" alt="Malcolm Bennie Image 5">
+                <div class="caption">Fan Favorite</div>
+            </div>
+        </main>
+    </div>
 
-<img src="image.png">
+    <footer>
+        <p>&copy; 2026 Malcolm Bennie Fan Club. All Rights Reserved.</p>
+    </footer>
 
-</div>
 </body>
-
-</html> 
+</html>
